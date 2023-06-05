@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THC</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap-5.3.0-alpha1-examples\bootstrap-5.3.0-alpha1-examples\sidebars\sidebars.css">
+    <link href="bootstrap-5.3.0-alpha1-examples\bootstrap-5.3.0-alpha1-examples\assets\dist\css\bootstrap.min.css"
+        rel="stylesheet">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/sidebars/">
+    <link rel="stylesheet" href="bootstrap-5.3.0-alpha1-examples\bootstrap-5.3.0-alpha1-examples\headers\headers.css">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/footers/">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>THC</title>
+</head>
+
+<body class="mx-auto">
+    <header class="d-flex flex-wrap justify-content-between justify-content-start py-3 mb-4 border-bottom">
+        <button class="btn bg-transparent" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><img id="top"
+                src="menu.png" alt="burgr" style="width: 32px; height: 32px;"></button>
+        <div class="form-check form-switch mx-5">
+            <input type="checkbox" class="form-check-input" id="darkSwitch">
+            <label class="custom-control-label" for="darkSwitch">Dark Mode <svg xmlns="http://www.w3.org/2000/svg"
+                    width="16" height="16" fill="currentColor" class="bi bi-moon" viewBox="0 0 16 16">
+                    <path
+                        d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278zM4.858 1.311A7.269 7.269 0 0 0 1.025 7.71c0 4.02 3.279 7.276 7.319 7.276a7.316 7.316 0 0 0 5.205-2.162c-.337.042-.68.063-1.029.063-4.61 0-8.343-3.714-8.343-8.29 0-1.167.242-2.278.681-3.286z" />
+                </svg></label>
+        </div>
+        <div class="offcanvas offcanvas-start bg-white" data-bs-scroll="true" tabindex="-1"
+            id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+            <div class="offcanvas-header">
+                <button type="button" class="bg-transparent border-0" data-bs-dismiss="offcanvas"
+                    aria-label="Close"><img width="94px" height="45px" id="close" src="negr.png" alt="close"></button>
+            </div>
+            <div class="offcanvas-body bg-white vh-100">
+                <div class="d-flex flex-column flex-shrink-0 p-3 vh-100 bg-body-tertiary bg-white"
+                    style="width: 280px;">
+                    <a href="/"
+                        class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                        <svg class="bi pe-none me-2" width="40" height="32">
+                            <use xlink:href="#bootstrap"></use>
+                        </svg>
+                        <span class="fs-4 bg-white">MENU</span>
+                    </a>
+                    <hr>
+                    <ul class="nav nav-pills flex-column mb-auto">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link bg-success " aria-current="page">
+                                <svg class="bi pe-none me-2" width="16" height="16">
+                                    <use xlink:href="#home"></use>
+                                </svg>
+                                Home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="teams.html" class="nav-link bg-white  link-body-emphasis">
+                                <svg class="bi pe-none me-2" width="16" height="16">
+                                    <use xlink:href="#speedometer2"></use>
+                                </svg>
+                                Teams
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="sponzors.html" class="nav-link bg-white link-body-emphasis">
+                                <svg class="bi pe-none me-2" width="16" height="16">
+                                    <use xlink:href="#table"></use>
+                                </svg>
+                                Sponzors
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="eshop.html" target=”_blank” class="nav-link bg-white link-body-emphasis">
+                                <svg class="bi pe-none me-2" width="16" height="16">
+                                    <use xlink:href="#grid"></use>
+                                </svg>
+                                E-shop
+                            </a>
+                        </li>
+                    </ul>
+                    <hr>
+                </div>
+            </div>
+
+    </header>
+    <article>
+        <div class="px-4 pt-5 my-5 text-center border-bottom">
+            <h1 class="display-4 fw-bold bg-white text-body-emphasis">Toronto Hood Crackers</h1>
+            <div class="col-lg-6 mx-auto">
+                <p class="lead mb-4">THC (Toronto Hood Crackers) is an esports organization based in Mělník, Czech Republic.
+                    Founded in 2023, THC has quickly emerged as a prominent force in the esports scene, particularly
+                    in games such as CSGO and League of Legends.</p>
+            </div>
+            <div class="overflow-hidden" style="max-height: 50vh;">
+                <div class="container px-5">
+                    <img src="logo.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image"
+                        width="600px" loading="lazy">
+                </div>
+            </div>
+        </div>
+        <div class="mx-auto">
+            <h1 class="display-4 fw-bold text-body-emphasis">Zápasy</h1>
+        </div>
+        <div class="row g-4 py-5 mx-2 row-cols-1 row-cols-lg-3">
+            <div class="tab-pane col d-flex align-items-start" data-aos="fade-in" data-aos-duration="2000">
+                <div
+                    class="icon-square text-bg-light flex-column d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                    <img src="logo.png" class="bi" width="44px" height="44px" alt="logoTHC">
+                    <img src="estlogo.png" class="bi" width="44px" height="44px" alt="logoENMY">
+
+                </div>
+                <div>
+                    <h3 class="fs-2 mb-1"><span class="winner">16</span> Toronto Hood Crackers</h3>
+                    <h3 class="fs-2"><span class="looser">13</span> Esonty Thunders</h3>
+                    <p>PawLeague Season 1</p>
+                </div>
+            </div>
+            <div class="tab-pane col d-flex align-items-start " data-aos="fade-in" data-aos-duration="2000">
+                <div
+                    class="icon-square text-bg-light flex-column d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                    <img src="logo.png" class="bi" width="44px" height="44px" alt="logoTHC">
+                    <img src="s2vmnlogo.jpeg" class="bi" style="border-radius:100%" width="44px" height="44px"
+                        alt="logoENMY">
+
+                </div>
+                <div>
+                    <h3 class="fs-2 mb-1"><span class="winner">16</span> Toronto Hood Crackers</h3>
+                    <h3 class="fs-2"><span class="looser">3</span> S2VMN</h3>
+                    <p>PawLeague Season 1</p>
+                </div>
+            </div>
+            <div class="tab-pane col d-flex align-items-start " data-aos="fade-in" data-aos-duration="2000">
+                <div
+                    class="icon-square text-bg-light flex-column d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                    <img src="logo.png" class="bi" width="44px" height="44px" alt="logoTHC">
+                    <img src="ninjurylogo.jpg" class="bi" style="border-radius:100%" width="44px" height="44px"
+                        alt="logoENMY">
+
+                </div>
+                <div>
+                    <h3 class="fs-2 mb-1"><span class="looser">14</span> Toronto Hood Crackers</h3>
+                    <h3 class="fs-2"><span class="winner">16</span> Ninjury</h3>
+                    <p>PawLeague Season 1</p>
+                </div>
+            </div>
+
+        </div>
+        <hr>
+        <h1 class="display-4 fw-bold text-body-emphasis">Zprávy</h1>
+        <div class="row g-4 justify-content-evenly py-5 mx-2 row-cols-1 row-cols-lg-3 w-100" data-aos="fade-in"
+            data-aos-duration="2000">
+            <div class="card bg-white" style="width: 20rem;">
+                <img src="zprava1.avif" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">CSGO</h5>
+                    <p class="card-text">Mucho texto</p>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">Whole article</button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="Modal1" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-scrollable ">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="Modal1">Article</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>
+                                        Toronto Hood Crackers (THC) is a well-known and respected Counter-Strike: Global
+                                        Offensive (CSGO) team, with a loyal fanbase that has followed them through their
+                                        many victories and defeats. Recently, the team made the decision to bring in a
+                                        new player, Hubert, as a replacement for M.9.R.A. This decision has sparked both
+                                        excitement and speculation among fans of THC, as they eagerly await the upcoming
+                                        matches to see how Hubert will perform alongside his new teammates.</p>
+                                    <p>Hubert, on the other hand, brings a wealth of experience and skill to the table.
+                                        He has played professionally for several years and has a reputation for being a
+                                        versatile and strategic player. His impressive stats and track record of success
+                                        suggest that he will be a valuable asset to THC and will help them to continue
+                                        dominating the competition. The decision to bring in Hubert was not made
+                                        lightly, and THC has been working hard to ensure that he is well-integrated into
+                                        the team. They have been practicing extensively together and have been working
+                                        on developing strategies that play to Hubert's strengths</p>
+                                    <p>Of course, the transition to a new player is not always smooth, and there are
+                                        likely to be some challenges that THC will face as they integrate Hubert into
+                                        their lineup. However, the team has a strong track record of working well
+                                        together and adapting to new challenges, so fans are optimistic about their
+                                        ability to succeed with their new player. Overall, the addition of Hubert to THC
+                                        is an exciting development for both the team and their fans. If the team can
+                                        continue to work well together and leverage Hubert's skills to their advantage,
+                                        there is no doubt that THC will remain a force to be reckoned with in the world
+                                        of CSGO.</p>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card bg-white" style="width: 20rem;">
+                <img src="zprava1.avif" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">New Roster</h5>
+                    <p class="card-text">THC acquires new league of legends roster</p>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">Whole article</button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="Modal2" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-scrollable ">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="Modal2">Article</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    In a groundbreaking move that has sent shockwaves throughout the eSports world, THC
+                                    (The High Command) has created a brand new League of Legends roster that promises to
+                                    redefine competitive gaming. With a vision to dominate the professional scene, THC
+                                    has meticulously handpicked a team of exceptional players, each bringing their
+                                    unique skills and experience to the table. This bold endeavor signifies a
+                                    significant step forward for the organization and the potential for them to become a
+                                    force to be reckoned with in the League of Legends eSports scene.
+
+                                    THC's decision to create a new roster is a testament to their commitment to
+                                    excellence and their dedication to becoming a dominant force in eSports. By
+                                    assembling a team from scratch, THC has the opportunity to mold a cohesive unit that
+                                    can work synergistically towards achieving their collective goals.
+
+                                    The Roster Unveiled
+
+                                    Let's take a closer look at the talented individuals who make up THC's new League of
+                                    Legends roster:
+
+                                    Top Lane: Šejkr
+                                    With a strong champion pool and exceptional mechanics, Šejkr is
+                                    known for their
+                                    ability to exert pressure in the top lane. Their strategic thinking and impeccable
+                                    decision-making make them a formidable presence on the team.
+
+                                    Jungle: Hiro
+                                    Hiro brings a wealth of experience and a deep understanding of the jungle role.
+                                    Known for their aggressive playstyle, Hiro excels at map control and securing
+                                    objectives, making them a crucial asset to the team.
+
+                                    Mid Lane: Pítr
+                                    Pítr is a rising star in the mid lane, known for their exceptional mechanics and
+                                    exceptional game sense. With a versatile champion pool and the ability to outplay
+                                    opponents, Pítr is a consistent threat and a key playmaker for the team.
+
+                                    AD Carry: Bořek Bořek is a highly skilled marksman, specializing in precision
+                                    and positioning.
+                                    Their ability to deal consistent damage in team fights and make game-changing plays
+                                    has earned them a reputation as one of the most formidable AD carries in the league.
+
+                                    Support: Thonuss Thonuss is a support player with exceptional game knowledge and the
+                                    ability to
+                                    dictate the pace of the game. Their strategic warding and playmaking abilities make
+                                    them an invaluable asset in both the laning phase and team fights.
+
+                                    With a roster brimming with talent and potential, THC has positioned themselves to
+                                    challenge the status quo and make a name for themselves in the League of Legends
+                                    competitive scene. The collective skill set of the players, combined with their
+                                    drive to succeed, makes THC a team to watch out for in upcoming tournaments and
+                                    leagues.
+
+                                    THC's investment in their new League of Legends roster reflects their long-term
+                                    commitment to success. By meticulously scouting and recruiting top-tier talent, they
+                                    have demonstrated their dedication to creating a winning team. With strong coaching
+                                    staff, analysts, and support systems in place, THC is leaving no stone unturned in
+                                    their quest to achieve greatness.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card bg-white" style="width: 20rem;">
+                <img src="zprava1.avif" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">CS roster update</h5>
+                    <p class="card-text">THC brings in new player to their CS:GO roster...</p>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">Whole article</button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="Modal3" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-scrollable ">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="Modal3">Article</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>
+                                        Toronto Hood Crackers (THC) is a well-known and respected Counter-Strike: Global
+                                        Offensive (CSGO) team, with a loyal fanbase that has followed them through their
+                                        many victories and defeats. Recently, the team made the decision to bring in a
+                                        new player, Hubert, as a replacement for M.9.R.A. This decision has sparked both
+                                        excitement and speculation among fans of THC, as they eagerly await the upcoming
+                                        matches to see how Hubert will perform alongside his new teammates.</p>
+                                    <p>Hubert, on the other hand, brings a wealth of experience and skill to the table.
+                                        He has played professionally for several years and has a reputation for being a
+                                        versatile and strategic player. His impressive stats and track record of success
+                                        suggest that he will be a valuable asset to THC and will help them to continue
+                                        dominating the competition. The decision to bring in Hubert was not made
+                                        lightly, and THC has been working hard to ensure that he is well-integrated into
+                                        the team. They have been practicing extensively together and have been working
+                                        on developing strategies that play to Hubert's strengths</p>
+                                    <p>Of course, the transition to a new player is not always smooth, and there are
+                                        likely to be some challenges that THC will face as they integrate Hubert into
+                                        their lineup. However, the team has a strong track record of working well
+                                        together and adapting to new challenges, so fans are optimistic about their
+                                        ability to succeed with their new player. Overall, the addition of Hubert to THC
+                                        is an exciting development for both the team and their fans. If the team can
+                                        continue to work well together and leverage Hubert's skills to their advantage,
+                                        there is no doubt that THC will remain a force to be reckoned with in the world
+                                        of CSGO.</p>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </article>
+    <footer class="py-3 my-4 relative-bottom bg-white">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3 bg-white">
+            <li class="nav-item"><a href="#top" class="nav-link px-2 text-black">Home</a></li>
+            <li class="nav-item"><a href="sponzors.html" class="nav-link px-2 text-black">Sponzors</a></li>
+            <li class="nav-item"><a href="teams.html" class="nav-link px-2 text-black">Teams</a></li>
+            <li class="nav-item"><a href="eshop.html" class="nav-link px-2 text-black">E-shop</a></li>
+        </ul>
+        <p class="text-center text-black">© 2023 THC, Inc</p>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

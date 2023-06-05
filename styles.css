@@ -1,0 +1,55 @@
+body {
+    height: 100vh;
+    overflow-x: hidden;
+    width: 100vw;
+}
+.winner {
+    color: rgb(7, 192, 7);
+    font-weight: bold;
+}
+.looser {
+    color: red;
+    font-weight: bold;
+}
+[data-theme="dark"] {
+    background-color: #111 !important;
+    color: #eee;
+  }
+  
+  [data-theme="dark"] .bg-black {
+    background-color: #fff !important;
+  }
+  
+  [data-theme="dark"] .bg-dark {
+    background-color: #eee !important;
+  }
+  
+  [data-theme="dark"] .bg-light {
+    background-color: #222 !important;
+  }
+  
+  [data-theme="dark"] .bg-white {
+    background-color: #000 !important;
+    color: #eee !important;
+  }
+  [data-theme="dark"] #top {
+        content: url("icons8-menu-250.png");
+  }
+  [data-theme="dark"] footer ul li a {
+    color: #eee !important;
+  }
+  [data-theme="dark"] footer p {
+    color: #eee !important;
+  }
+  [data-theme="dark"] #close {
+    content: url("bilej.png");
+}
+.bg-white {
+  color: black !important;
+}
+.nav-link {
+  color: black !important;
+}
+.bg-white {
+  background-color: white;
+}
